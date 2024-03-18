@@ -1,6 +1,6 @@
 import {StyleSheet, Text, View} from 'react-native';
 import React, {useEffect} from 'react';
-import Photos from '../../assets/icons/Frame (1).svg';
+import Photos from '../../assets/icon/Frame (1).svg';
 
 const SplashScreen = ({navigation}) => {
   useEffect(() => {
