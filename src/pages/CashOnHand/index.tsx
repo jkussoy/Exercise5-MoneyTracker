@@ -6,7 +6,7 @@ const CashOnHand = ({navigation}) => {
   return (
     <ScrollView style={styles.page}>
       <PageHeader
-        label="CashOnHand"
+        label="Cash On Hand"
         backButton={true}
         navigation={navigation}
         nav="SignIn"
@@ -17,7 +17,7 @@ const CashOnHand = ({navigation}) => {
         <TextInput label="Type" placeholder="Debit / Credit" />
         <Gap height={22} />
         <Button label="Save" />
-        <Gap height={52} />
+        <Gap height={22} />
       </View>
       <View style={styles.contentWrapper02}>
         <Text style={styles.transactionCount}>Last 3 Transactions</Text>
@@ -65,7 +65,11 @@ const styles = StyleSheet.create({
     paddingHorizontal: 24,
     paddingTop: 26,
     marginTop: 24,
-    paddingBottom: 22,
+    paddingBottom: 10,
+  },
+  leftInnerBorder: {
+    borderRadius: 8,
+    backgroundColor: 'white',
   },
   contentWrapper02: {
     alignContent: 'center',
@@ -85,7 +89,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     borderWidth: 1,
     marginTop: 10,
-    borderRadius: 10,
+    borderRadius: 8,
     paddingLeft: 20,
     paddingTop: 10,
     paddingBottom: 11,

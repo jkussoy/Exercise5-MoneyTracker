@@ -6,7 +6,7 @@ const CashOnBank = ({navigation}) => {
   return (
     <ScrollView style={styles.page}>
       <PageHeader
-        label="CashOnBank"
+        label="Cash On Bank"
         backButton={true}
         navigation={navigation}
         nav="SignIn"

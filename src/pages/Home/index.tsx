@@ -2,7 +2,6 @@ import {StyleSheet, Text, View, ScrollView} from 'react-native';
 import React from 'react';
 import {Button, Gap, PageHeader} from '../../components';
 import {IconHome, SquareFrame} from '../../assets/icon';
-import {Profile} from '../../assets/images';
 
 const Home = ({navigation}) => {
   return (
